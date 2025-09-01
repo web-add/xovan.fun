@@ -23,7 +23,7 @@ import {
   Zap,
 } from "lucide-react"
 import { useParams } from "next/navigation"
-
+export const runtime = "edge";
 function ServerOverview({ serverStatus, serverStats, handleServerAction, actionLoading, handleUpdateServer }) {
   const isOnline = serverStatus === "online"
 
