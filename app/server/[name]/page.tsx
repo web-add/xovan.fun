@@ -27,7 +27,7 @@ import { Textarea } from "@/components/ui/textarea"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 import { ToastContainer, showToast } from "@/components/toast";
-
+export const runtime = "edge";
 function formatDate(utcString: string) {
   // tambahkan "Z" agar dianggap UTC
   const d = new Date(utcString + "Z");
