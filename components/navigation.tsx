@@ -177,7 +177,7 @@ export function Navigation() {
                     </Button>
                   </Link>
                 ) : (
-                  <Link href="/dashboard" className="w-full">
+                  <Link href="/login" className="w-full">
                     <Button variant="ghost" className="cursor-pointer w-full justify-start p-0 h-auto">
                       <DoorOpen className="w-4 h-4 mr-2" />
                       Login
